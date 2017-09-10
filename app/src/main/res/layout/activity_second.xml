@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="Android Read/Write File" />
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="File Name"
+        android:text="sample_pdf_file" />
+
+    <EditText
+        android:id="@+id/ftext"
+        android:layout_width="fill_parent"
+        android:layout_height="100px"
+        android:hint="File Text"
+        android:text="Hello World" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnwrite"
+        android:text="Write File" />
+
+    <EditText
+        android:id="@+id/fnameread"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="File Name"
+        android:text="sample_pdf_file" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnread"
+        android:text="Read File" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/filecon" />
+</LinearLayout>
